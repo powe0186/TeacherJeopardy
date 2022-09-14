@@ -10,10 +10,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import MainNav from './components/MainNav';
+import MainNav from './components/MainNav/MainNav';
 import Categories from './Routes/Categories';
 import MyGames from './Routes/MyGames';
 import SignIn from './Routes/SignIn';
+import Clues from './Routes/Clues';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -25,6 +26,7 @@ root.render(
           <Route path="categories" element={<Categories />} />
           <Route path="mygames" element={<MyGames />} />
           <Route path="signin" element={<SignIn />} />
+          <Route path="clues" element={<Clues />} />
 
         </Route>
       </Routes>

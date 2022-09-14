@@ -15,6 +15,7 @@ function MainNav() {
           <Nav className="me-auto">
             <Nav.Link href="categories">Categories</Nav.Link>
             <Nav.Link href="mygames">My Games</Nav.Link>
+            <Nav.Link href="clues">Clues</Nav.Link>
             {/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
